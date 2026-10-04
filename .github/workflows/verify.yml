@@ -1,0 +1,17 @@
+name: Verify RTL
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  simulate:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    container:
+      image: ghdl/ghdl:5.1.1-mcode-ubuntu-24.04@sha256:5f98c8192c42150ba184cd425d00372652641be33d08f75d90c955e4b0c10828
+    steps:
+      - uses: actions/checkout@v4
+      - run: bash scripts/check.sh
+      - uses: actions/upload-artifact@v4
+        with:
+          name: rtl-frame
+          path: build/frame.ppm

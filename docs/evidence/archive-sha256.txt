@@ -1,0 +1,2 @@
+b683b13af7e920551e1d19407ec4402dfc8aaee05d1cf7e6d7f271e37b38c5a0  archive/constraints.ucf
+1a7bbc714539a97222817a07f1062ede3c9428ba391bc57a101d346d25028c1a  archive/pong.vhd

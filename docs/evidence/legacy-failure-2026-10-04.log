@@ -1,0 +1,5 @@
+../../tests/tb_pong.vhd:26:5:@671971ns:(assertion failure): RGB did not follow pixel coordinates: expected 600 white border pixels, got 0
+ghdl:error: assertion failed
+  instance: /tb_pong/P1
+  from: process work.tb_pong(test).P1 at tb_pong.vhd:26
+ghdl:error: simulation failed

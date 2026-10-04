@@ -1,0 +1,13 @@
+../tests/tb_pong.vhd:27:5:@671971ns:(report note): PASS: combinational RGB changes across a scanline
+simulation finished @671971ns
+../tests/tb_video.vhd:61:5:@16800011ns:(report note): PASS: 800x525 frame, 640x480 active pixels, sync widths, porches, blanking, colors and 40 ns DAC period
+simulation finished @16800011ns
+../tests/tb_game.vhd:67:5:@108466ns:(report note): PASS: motion enable, paddle bounds/pause, reset, paddle/wall collisions and goal reset
+simulation finished @108466ns
+../rtl/pong.vhd:21:13:warning: unhandled attribute "async_reg" [-Wunhandled-attribute]
+  attribute ASYNC_REG of switches_meta, switches_sync : signal is "TRUE";
+            ^
+../rtl/pong.vhd:21:13:warning: unhandled attribute "async_reg" [-Wunhandled-attribute]
+  attribute ASYNC_REG of switches_meta, switches_sync : signal is "TRUE";
+            ^
+PASS: GHDL synthesis elaboration (not FPGA placement or timing closure)
