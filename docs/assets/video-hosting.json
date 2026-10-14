@@ -1,0 +1,12 @@
+{
+  "repository": "calebhabesh/fpga-pong",
+  "purpose": "GitHub README player; the committed MP4 is the source file.",
+  "videos": [
+    {
+      "path": "docs/assets/rtl-gameplay.mp4",
+      "url": "https://github.com/user-attachments/assets/a3c2dd1b-a141-4e0d-a551-43696cea86e1",
+      "sha256": "94e97b474b83785c089eab810d9bf736e1bea43bdd573b6b41c7afd8f6f6a6a0",
+      "bytes": 204794
+    }
+  ]
+}

@@ -23,9 +23,9 @@ do not establish timing closure for the refresh.
 This frame is produced by sampling the actual VHDL RGB outputs in `tb_video`,
 with motion disabled for the capture. No JavaScript reimplementation is used.
 
-[![Pong gameplay sampled from the refreshed RTL](docs/assets/rtl-gameplay-poster.png)](docs/assets/rtl-gameplay.mp4)
+https://github.com/user-attachments/assets/a3c2dd1b-a141-4e0d-a551-43696cea86e1
 
-[Watch 15 seconds of gameplay (MP4)](docs/assets/rtl-gameplay.mp4): 900 consecutive
+[MP4 source](docs/assets/rtl-gameplay.mp4) · 15 seconds of gameplay: 900 consecutive
 frames sampled from the same RGB outputs by `tests/tb_record.vhd`, at 60 Hz and the
 board's motion rate. Scripted switch inputs track the ball using only the video;
 the right player parks for one rally to show a goal and reset. This is RTL
